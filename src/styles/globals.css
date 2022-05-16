@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 400 1rem var(--font-text);
+  color: var(--text-color);
+  background-color: var(--body-color);
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  margin-top: var(--header-height);
+}
+
+h1 {
+  font: 700 1.875rem var(--font-title);
+  color: var(--title-color);
+  -webkit-font-smoothing: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 5rem 0;
+}
+
+.grid {
+  display: grid;
+  gap: 2rem;
+}

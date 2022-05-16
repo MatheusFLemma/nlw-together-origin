@@ -1,0 +1,35 @@
+.header {
+  border-bottom: 1px solid #E4E4E4;
+  margin-bottom: 2rem;
+  display: flex;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  background-color: var(--body-color);
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  height: var(--header-height);
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.logo {
+  font: 700 1.31rem var(--font-title);
+  color: var(--title-color);
+}
+
+.logo span {
+  color: var(--base-color);
+}
+
+.menu {
+  font-weight: bold;
+  color: var(--base-color);
+  rotate: 90deg;
+}
