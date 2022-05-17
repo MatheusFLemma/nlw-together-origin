@@ -36,6 +36,10 @@ button {
   cursor: pointer;
 }
 
+br {
+  height: 1.625rem;
+}
+
 .container {
   width: 90%;
   margin: 0 auto;
