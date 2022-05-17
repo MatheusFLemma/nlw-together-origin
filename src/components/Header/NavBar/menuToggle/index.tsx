@@ -15,7 +15,7 @@ export default function MenuToggle({ menuToggle, isOpen }: MenuToggleProps) {
       type="button"
       onClick={menuToggle}
     >
-      {isOpen ? <FiX className={styles.close} /> : <FiMenu />}
+      {isOpen ? <FiX className={styles.close} data-aos="fade-down" /> : <FiMenu />}
     </button>
   );
 }

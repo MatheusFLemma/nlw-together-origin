@@ -30,7 +30,7 @@ interface NavBarProps {
 export default function NavBar({ handleToggleLink }: NavBarProps) {
   return (
     <>
-      <div className={`${styles.menu}`}>
+      <div className={styles.menu} data-aos="fade-down">
         <ul className={styles['list-grid']}>
           {Object.entries(links).map(([key, value]) => (
             <li key={key}>
