@@ -23,14 +23,17 @@
   border-radius: 0.25rem;
 }
 
-.text {
+.title {
   text-align: center;
 }
 
-.text h1 {
+.title h2 {
   margin-bottom: 1rem;
+  font: 700 1.875rem var(--font-title);
+  color: var(--title-color);
+  -webkit-font-smoothing: auto;
 }
 
-.text p {
+.title p {
   margin-bottom: 2rem;
 }

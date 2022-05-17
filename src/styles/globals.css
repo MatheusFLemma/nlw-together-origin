@@ -15,20 +15,25 @@ main {
   margin-top: var(--header-height);
 }
 
-h1 {
-  font: 700 1.875rem var(--font-title);
-  color: var(--title-color);
-  -webkit-font-smoothing: auto;
-}
-
 a {
   color: inherit;
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+}
+
 img {
   width: 100%;
   height: auto;
+}
+
+button {
+  border: none;
+  font: inherit;
+  background: transparent;
+  cursor: pointer;
 }
 
 .container {

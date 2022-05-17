@@ -1,0 +1,16 @@
+.menuButton {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.menuButton svg {
+  width: 100%;
+  height: 100%;
+  color: var(--base-color);
+}
+
+.menuButton.close {
+  position: fixed;
+  top: 1.5rem;
+  right: 1rem;
+}

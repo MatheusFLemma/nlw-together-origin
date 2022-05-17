@@ -5,7 +5,7 @@ import styles from './Home.module.css';
 
 export default function Home() {
   return (
-    <section className={`${styles.home} section`}>
+    <section id="home" className={`${styles.home} section`}>
       <div className="grid">
         <div className={styles.image}>
           <Image
@@ -16,8 +16,8 @@ export default function Home() {
           />
         </div>
 
-        <div className={`${styles.text} container`}>
-          <h1>Saúde natural para os seus cabelos</h1>
+        <div className={`${styles.title} container`}>
+          <h2>Saúde natural para os seus cabelos</h2>
           <p>Um salão exclusivo em São Paulo, especializado em tratamentos naturais.</p>
 
           <Button content="Agendar um horário" reference="/" />
