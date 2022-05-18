@@ -14,6 +14,7 @@ import { useEffect } from 'react';
 function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
     AOS.init({
+      offset: 12,
       easing: 'ease-in-out',
     });
   }, []);

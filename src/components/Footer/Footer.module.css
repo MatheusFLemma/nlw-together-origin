@@ -1,0 +1,29 @@
+.footer {
+  background-color: var(--base-color);
+  color: var(--body-color);
+}
+
+.logo {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  font: 700 1.3125rem var(--font-title);
+  color: var(--title-color);
+}
+
+.logo span {
+  color: var(--body-color);
+}
+
+.brand p {
+  line-height: 1.625rem;
+  margin-bottom: 0.75rem;
+}
+
+.brand p:last-child {
+  margin: 0;
+}
+
+.social {
+  display: flex;
+  gap: 2rem;
+}

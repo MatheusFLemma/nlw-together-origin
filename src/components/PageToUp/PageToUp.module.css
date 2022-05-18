@@ -1,0 +1,22 @@
+.back-to-top {
+  position: fixed;
+  color: var(--text-color-light);
+  right: 1rem;
+  padding: 0.5rem;
+  line-height: 0;
+  clip-path: circle();
+  bottom: 1rem;
+  background-color: var(--base-color);
+
+  visibility: hidden;
+  opacity: 0;
+  transition: .3s ease-in-out;
+
+  transform: translateY(100%);
+}
+
+.back-to-top.show {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0%);
+}

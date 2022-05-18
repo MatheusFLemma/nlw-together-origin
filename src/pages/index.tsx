@@ -7,6 +7,8 @@ import About from '../components/About';
 import Services from '../components/Services';
 import Testimonials from '../components/Testimonials';
 import Contact from '../components/Contact';
+import Footer from '../components/Footer';
+import PageToUp from '../components/PageToUp';
 
 const App: NextPage = () => {
   return (
@@ -31,7 +33,13 @@ const App: NextPage = () => {
         <Divider type={2} />
 
         <Contact />
+
+        <Divider type={1} />
       </main>
+
+      <Footer />
+
+      <PageToUp />
     </>
   );
 };
