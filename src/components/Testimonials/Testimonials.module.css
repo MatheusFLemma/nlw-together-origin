@@ -1,0 +1,18 @@
+.testimonials {
+  background-color: white;
+}
+
+.header {
+  margin-bottom: 0rem;
+}
+
+.header h2 {
+  margin-bottom: 1rem;
+  font: 700 1.875rem var(--font-title);
+  color: var(--title-color);
+  -webkit-font-smoothing: auto;
+}
+
+.header p {
+  line-height: 1.625rem;
+}

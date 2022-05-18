@@ -57,3 +57,12 @@ br {
   display: grid;
   gap: 2rem;
 }
+
+.swiper-pagination-bullet {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--base-color);
+}

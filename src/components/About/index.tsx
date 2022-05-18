@@ -5,7 +5,7 @@ export default function About() {
   return (
     <section id="about" className={`${styles.about} section`}>
       <div className="grid">
-        <div className={styles.image}>
+        <div className={styles.image} data-aos="fade-down" data-aos-duration="700">
           <Image
             width={1920}
             height={1281}
@@ -13,7 +13,7 @@ export default function About() {
             src="https://images.unsplash.com/photo-1559599101-f09722fb4948?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
           />
         </div>
-        <div className={`${styles.title} container`}>
+        <div className={`${styles.title} container`} data-aos="fade-down" data-aos-duration="800">
           <h2>Sobre nós</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores quos reprehenderit

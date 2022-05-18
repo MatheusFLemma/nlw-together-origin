@@ -40,7 +40,7 @@ export default function Cards() {
   return (
     <div className={styles.cards}>
       {Object.entries(cardInfos).map(([key, card]) => (
-        <div key={key} className={styles.card}>
+        <div key={key} className={styles.card} data-aos="fade-down" data-aos-duration="800">
           <i>
             <Image src={card.image.src} alt={card.image.alt} />
           </i>

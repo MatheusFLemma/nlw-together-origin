@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <section id="home" className={`${styles.home} section`}>
       <div className="grid">
-        <div className={styles.image}>
+        <div className={styles.image} data-aos="fade-down" data-aos-duration="700">
           <Image
             width={1920}
             height={1281}
@@ -16,7 +16,7 @@ export default function Home() {
           />
         </div>
 
-        <div className={`${styles.title} container`}>
+        <div className={`${styles.title} container`} data-aos="fade-down" data-aos-duration="800">
           <h2>Saúde natural para os seus cabelos</h2>
           <p>Um salão exclusivo em São Paulo, especializado em tratamentos naturais.</p>
 

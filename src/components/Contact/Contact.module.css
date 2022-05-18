@@ -1,0 +1,16 @@
+.contact {
+  display: grid;
+  gap: 4rem;
+}
+
+.contact h2 {
+  margin-bottom: 1rem;
+  font: 700 1.875rem var(--font-title);
+  color: var(--title-color);
+  -webkit-font-smoothing: auto;
+}
+
+.contact p {
+  line-height: 1.625rem;
+  margin-bottom: 2rem;
+}

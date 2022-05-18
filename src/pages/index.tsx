@@ -5,6 +5,8 @@ import Home from '../components/Home/';
 import Divider from '../components/Divider/';
 import About from '../components/About';
 import Services from '../components/Services';
+import Testimonials from '../components/Testimonials';
+import Contact from '../components/Contact';
 
 const App: NextPage = () => {
   return (
@@ -23,6 +25,12 @@ const App: NextPage = () => {
         <Services />
 
         <Divider type={1} />
+
+        <Testimonials />
+
+        <Divider type={2} />
+
+        <Contact />
       </main>
     </>
   );

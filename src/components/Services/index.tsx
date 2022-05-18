@@ -6,7 +6,7 @@ export default function Services() {
   return (
     <section id="services" className="section">
       <div className="container grid">
-        <header className={styles.header}>
+        <header className={styles.header} data-aos="fade-down" data-aos-duration="700">
           <h2>Serviços</h2>
           <p>
             Com mais de 10 anos no mercado, o <strong>Beautysalon</strong> já conquistou clientes de

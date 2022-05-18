@@ -37,7 +37,9 @@ export default function Header() {
           </Link>
         </h1>
 
-        {isOpen && <NavBar handleToggleLink={handleMenu} data-aos="fade-down" />}
+        {isOpen && (
+          <NavBar handleToggleLink={handleMenu} data-aos="fade-down" data-aos-duration="300" />
+        )}
 
         <MenuToggle isOpen={isOpen} menuToggle={handleMenu} />
       </nav>

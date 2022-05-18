@@ -1,3 +1,6 @@
+import 'swiper/css';
+import 'swiper/css/pagination';
+
 import '../styles/globals.css';
 import '../styles/theme.css';
 
@@ -11,7 +14,6 @@ import { useEffect } from 'react';
 function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
     AOS.init({
-      duration: 200,
       easing: 'ease-in-out',
     });
   }, []);
