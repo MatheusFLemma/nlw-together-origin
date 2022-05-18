@@ -5,9 +5,9 @@
 
 .card {
   padding: 3.625rem 2rem;
-  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: var(--shadow);
   border-bottom: 0.25rem solid var(--base-color);
-  border-radius: 0.25rem 0.25rem 0 0;
+  border-radius: var(--border) var(--border) 0 0;
   text-align: center;
 }
 
@@ -23,5 +23,5 @@
 }
 
 .card p {
-  line-height: 1.625rem;
+  line-height: var(--body-line-height);
 }

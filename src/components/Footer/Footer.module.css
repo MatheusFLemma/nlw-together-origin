@@ -6,7 +6,7 @@
 .logo {
   display: inline-block;
   margin-bottom: 1.5rem;
-  font: 700 1.3125rem var(--font-title);
+  font: var(--font-bold) var(--logo-font-size) var(--font-title);
   color: var(--title-color);
 }
 
@@ -15,7 +15,7 @@
 }
 
 .brand p {
-  line-height: 1.625rem;
+  line-height: var(--body-line-height);
   margin-bottom: 0.75rem;
 }
 

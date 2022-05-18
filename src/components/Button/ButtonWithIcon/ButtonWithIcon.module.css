@@ -6,9 +6,9 @@
   align-items: center;
   justify-content: center;
   padding: 0.875rem 2rem;
-  border-radius: 0.25rem;
+  border-radius: var(--border);
   gap: 0.625rem;
-  font: 500 1rem var(--font-text);
+  font: var(--font-bold) var(--body-size) var(--font-body);
   transition: background 0.3s ease-in-out;
 }
 

@@ -8,7 +8,7 @@
 }
 
 .image span {
-  border-radius: 0.25rem;
+  border-radius: var(--border);
 }
 
 .image::before {
@@ -19,16 +19,16 @@
   position: absolute;
   top: -8.3%;
   left: -33%;
-  border-radius: 0.25rem;
+  border-radius: var(--border);
 }
 
 .title h2 {
   margin-bottom: 1rem;
-  font: 700 1.875rem var(--font-title);
+  font: var(--font-bold) var(--title-size) var(--font-title);
   color: var(--title-color);
   -webkit-font-smoothing: auto;
 }
 
 .title p {
-  line-height: 1.625rem;
+  line-height: var(--body-line-height);
 }

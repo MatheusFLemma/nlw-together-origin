@@ -21,7 +21,7 @@
 }
 
 .title {
-  font: 700 1.875rem var(--font-title);
+  font: var(--font-bold) var(--title-size) var(--font-title);
   color: var(--title-color);
   -webkit-font-smoothing: auto;
 

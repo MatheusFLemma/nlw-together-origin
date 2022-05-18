@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font: 400 1rem var(--font-text);
+  font: var(--font-regular) var(--body-size) var(--font-body);
   color: var(--text-color);
   background-color: var(--body-color);
   -webkit-font-smoothing: antialiased;
@@ -38,10 +38,6 @@ button {
   font: inherit;
   background: transparent;
   cursor: pointer;
-}
-
-br {
-  height: 1.625rem;
 }
 
 .container {

@@ -1,12 +1,12 @@
 .testimonial blockquote {
   padding: 2rem;
   user-select: none;
-  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
-  border-radius: 0.25rem;
+  box-shadow: var(--shadow);
+  border-radius: var(--border);
 }
 
 .testimonial blockquote p {
-  line-height: 1.625rem;
+  line-height: var(--body-line-height);
   color: var(--title-color);
   position: relative;
   text-indent: 1.875rem;
@@ -15,7 +15,7 @@
 
 .testimonial blockquote p span {
   color: var(--base-color);
-  font: 700 3rem 'Georgia', serif;
+  font: var(--font-bold) var(--quote-size) 'Georgia', serif;
   position: absolute;
   top: -0.8rem;
   left: -1.85rem;

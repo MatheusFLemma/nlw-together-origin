@@ -1,5 +1,8 @@
 :root {
   --header-height: 4.5rem;
+  --border: 0.25rem;
+  --shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+  --shadow-light: 0px 0px 12px rgba(0, 0, 0, 0.1);
 
   /* colors */
   --hue: 159;
@@ -15,5 +18,12 @@
 
   /* Font setting */
   --font-title: 'Poppins', sans-serif;
-  --font-text: 'DM Sans', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+  --font-regular: 500;
+  --font-bold: 700;
+  --title-size: 1.875rem;
+  --body-size: 1rem;
+  --quote-size: 3rem;
+  --body-line-height: 1.625rem;
+  --logo-font-size: 1.31rem;
 }

@@ -12,6 +12,8 @@
   opacity: 0;
   transition: .3s ease-in-out;
 
+  box-shadow: var(--shadow-light);
+
   transform: translateY(100%);
 }
 

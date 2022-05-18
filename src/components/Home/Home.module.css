@@ -9,7 +9,7 @@
 .image span {
   position: relative;
   right: 2.93rem;
-  border-radius: 0.25rem;
+  border-radius: var(--border);
 }
 
 .image::before {
@@ -20,7 +20,7 @@
   position: absolute;
   top: -16.8%;
   left: 16.8%;
-  border-radius: 0.25rem;
+  border-radius: var(--border);
 }
 
 .title {
@@ -29,7 +29,7 @@
 
 .title h2 {
   margin-bottom: 1rem;
-  font: 700 1.875rem var(--font-title);
+  font: var(--font-bold) var(--title-size) var(--font-title);
   color: var(--title-color);
   -webkit-font-smoothing: auto;
 }
