@@ -1,34 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
 
-## Getting Started
+<p align="center">
+  <img alt="Tecnologias" src="https://img.shields.io/static/v1?label=tecnologias&message=6&color=e2e2e2&style=for-the-badge" />
+  <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/MatheusFLemma/nlw-together-origin?style=for-the-badge" />
+  <img alt="Último commit do repositório" src="https://img.shields.io/github/last-commit/MatheusFLemma/nlw-together-origin?style=for-the-badge" />
+</p>
 
-First, run the development server:
+<br>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<p align="center">
+  <img alt="OriginSix" src=".github/preview.png" width="100%">
+</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Tecnologias
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Esse projeto foi desenvolvido originalmente com as seguintes tecnologias:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- HTML
+- CSS
+- JavaScript
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Mas resolvi dar um passo a mais e além, portanto, utilizei as seguintes tecnologias:
 
-## Learn More
+- NextJS
+- ReactJS
+- CSS
+- TypeScript
 
-To learn more about Next.js, take a look at the following resources:
+Bibliotecas
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Google Fonts](https://fonts.google.com/)
+- [SwipeJS](https://github.com/nolimits4web/Swiper)
+- [AOS](https://michalsnik.github.io/aos/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Utilitários
 
-## Deploy on Vercel
+- [randomuser.me](https://randomuser.me/photos)
+- [react-icons](https://react-icons.github.io/react-icons/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 💻 Projeto
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+OriginSix é uma página institucional no formato One Page, responsiva, para usar em diversos tipos de micro, pequena e média empresas. Contém as seguintes seções: Header, Navigation, Home, Sobre, Serviços, Depoimentos, Contato e Footer
+
+## 🔖 Layout
+
+Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/community/file/1009807319507822993/Origin-Six). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+
+
+Feito com ♥ by Rocketseat & Matheus Lemma :wave: [Participe da comunidade da Rocketseat!](https://discordapp.com/invite/gCRAFhc)

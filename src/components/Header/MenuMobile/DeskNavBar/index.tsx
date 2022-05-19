@@ -23,17 +23,13 @@ const links = {
   },
 };
 
-interface DeskNavBarProps {
-  handleToggleLink: () => void;
-}
-
-export default function DeskNavBar({ handleToggleLink }: DeskNavBarProps) {
+export default function DeskNavBar() {
   return (
     <div className={styles.menu} data-aos="fade-down" data-aos-duration="200">
       <ul>
         {Object.entries(links).map(([key, value]) => (
           <li key={key}>
-            <a className={styles.title} onClick={handleToggleLink} href={value.reference}>
+            <a className={styles.title} href={value.reference}>
               {value.text}
             </a>
           </li>

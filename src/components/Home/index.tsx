@@ -1,4 +1,5 @@
 import Image from 'next/image';
+
 import Button from '../Button';
 
 import styles from './Home.module.css';

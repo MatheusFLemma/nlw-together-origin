@@ -17,23 +17,14 @@ const App: NextPage = () => {
 
       <main>
         <Home />
-
         <Divider type={1} />
-
         <About />
-
         <Divider type={2} />
-
         <Services />
-
         <Divider type={1} />
-
         <Testimonials />
-
         <Divider type={2} />
-
         <Contact />
-
         <Divider type={1} />
       </main>
 
