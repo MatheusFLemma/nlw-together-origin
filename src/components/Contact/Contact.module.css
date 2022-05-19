@@ -14,3 +14,13 @@
   line-height: var(--body-line-height);
   margin-bottom: 2rem;
 }
+
+@media screen and (min-width: 1023px) {
+  .contact {
+    align-items: center;
+  }
+
+  .text {
+    max-width: 25rem;
+  }
+}

@@ -25,3 +25,14 @@
 .card p {
   line-height: var(--body-line-height);
 }
+
+@media screen and (min-width: 1023px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .card {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}

@@ -22,8 +22,16 @@
   --font-regular: 500;
   --font-bold: 700;
   --title-size: 1.875rem;
+  --subtitle-size: 1rem;
   --body-size: 1rem;
   --quote-size: 3rem;
   --body-line-height: 1.625rem;
   --logo-font-size: 1.31rem;
+}
+
+@media screen and (min-width: 992px) {
+  :root {
+    --title-size: 2.25rem;
+    --subtitle-size: 1.125rem;
+  }
 }

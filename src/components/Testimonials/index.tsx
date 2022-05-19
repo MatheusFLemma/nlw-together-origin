@@ -1,8 +1,11 @@
 import TestimonialsCards from './TestimonialsCards';
 
 import styles from './Testimonials.module.css';
+import dynamic from 'next/dynamic';
 
 export default function Testimonials() {
+  const TestimonialsCards = dynamic(() => import('./TestimonialsCards'), { ssr: false });
+
   return (
     <section id="testimonials" className={`${styles.testimonials} section`}>
       <div className="container">

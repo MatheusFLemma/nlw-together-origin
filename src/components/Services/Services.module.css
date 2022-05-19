@@ -9,10 +9,12 @@
   -webkit-font-smoothing: auto;
 }
 
-.header p {
+.header .subtitle {
   line-height: var(--body-line-height);
+  color: var(--title-color);
+  font-size: var(--subtitle-size);
 }
 
-.header p strong {
+.header .subtitle strong {
   color: var(--base-color);
 }

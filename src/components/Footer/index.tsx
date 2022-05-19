@@ -6,7 +6,7 @@ import styles from './Footer.module.css';
 
 export default function Footer() {
   return (
-    <footer className={`${styles.footer} section`}>
+    <footer className={styles.footer}>
       <div className="container grid">
         <div className={styles.brand} data-aos="fade-down" data-aos-duration="700">
           <Link href="/">

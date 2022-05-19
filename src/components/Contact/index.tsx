@@ -12,7 +12,7 @@ export default function Contact() {
   return (
     <section id="contact" className="section">
       <div className={`${styles.contact} container`}>
-        <div data-aos="fade-down" data-aos-duration="700">
+        <div className={styles.text} data-aos="fade-down" data-aos-duration="700">
           <h2>Entre em contato com a gente</h2>
           <p>
             Entre em contato com a Beautysalon, queremos tirar suas dúvidas, ouvir suas críticas e

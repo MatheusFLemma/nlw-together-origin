@@ -1,22 +1,16 @@
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 
+import MenuMobile from './MenuMobile';
+
 import styles from './Header.module.css';
 
-import NavBar from './NavBar';
-import MenuToggle from './NavBar/menuToggle';
-
 export default function Header() {
-  const [isOpen, setIsOpen] = useState(false);
   const [headerOffset, setHeaderOffset] = useState(false);
 
   useEffect(() => {
     window.addEventListener('scroll', handleHeaderOffset);
   }, []);
-
-  function handleMenu() {
-    setIsOpen(!isOpen);
-  }
 
   function handleHeaderOffset() {
     if (window.scrollY >= 72) {
@@ -37,11 +31,7 @@ export default function Header() {
           </Link>
         </h1>
 
-        {isOpen && (
-          <NavBar handleToggleLink={handleMenu} data-aos="fade-down" data-aos-duration="300" />
-        )}
-
-        <MenuToggle isOpen={isOpen} menuToggle={handleMenu} />
+        <MenuMobile />
       </nav>
     </header>
   );

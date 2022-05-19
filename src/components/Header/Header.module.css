@@ -11,7 +11,7 @@
 }
 
 .header.active {
-  box-shadow: var(--shadow-light)
+  box-shadow: var(--shadow-light);
 }
 
 .container {
@@ -30,4 +30,14 @@
 
 .logo span {
   color: var(--base-color);
+}
+
+@media screen and (min-width: 1023px) {
+  .header {
+    position: static;
+  }
+
+  .container {
+    max-width: 70rem;
+  }
 }

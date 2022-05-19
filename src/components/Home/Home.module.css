@@ -37,3 +37,19 @@
 .title p {
   margin-bottom: 2rem;
 }
+
+@media screen and (min-width: 1023px) {
+  .image {
+    order: 1;
+  }
+
+  .image span {
+    right: 0;
+  }
+
+  .title {
+    order: 0;
+    text-align: left;
+    max-width: 24rem;
+  }
+}

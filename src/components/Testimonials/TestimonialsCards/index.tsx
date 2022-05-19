@@ -51,6 +51,14 @@ export default function TestimonialsCards() {
       keyboard={{ enabled: true }}
       pagination={{ clickable: true }}
       loop={true}
+      tag={'div'}
+      wrapperTag={'div'}
+      breakpoints={{
+        767: {
+          slidesPerView: 2,
+          setWrapperSize: true,
+        },
+      }}
     >
       {Object.entries(localTestimonials).map(([key, testimonial]) => (
         <SwiperSlide style={{ height: 'auto', padding: '4rem 1rem', width: '100%' }} key={key}>
